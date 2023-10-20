@@ -16,6 +16,9 @@
                 document.querySelector('.error').style.display = 'block'
                 document.querySelector('.weather').style.display = 'none'
           }
+          else if(response.status == 400) {
+               document.querySelector('.weather').style.display = 'none'
+          }
           else{
                let data = await response.json()
 
