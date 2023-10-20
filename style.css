@@ -99,3 +99,20 @@ body {
      margin-top: 10px;
      display: none;
 }
+
+
+@media screen and (max-width: 767px) {
+     .search input {
+          padding: 10px 10px;
+          margin-left: 16px;
+     }
+
+     .search button {
+          display: none;
+        }
+
+     .col:first-child {
+          margin-right: 27px;
+          margin-left: -15px;
+     }
+}
